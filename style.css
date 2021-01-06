@@ -17,15 +17,29 @@ h1{
     margin-left: 5%;
     padding: 2%;
 }
+section.first{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+}
+.nev{
+    float: right;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 22px;
+    color: white;
+}
+
 .wrapper img{
     width: 100%;
 }
 .second{
     height: 600px;
     margin-bottom: 150px;
-    border: 1px solid red;
     margin-top: 50px;
-}a{
+}
+.button{
     background-image: linear-gradient(red,yellow);
     padding: 10px 20px;
     border:indigo;
@@ -36,8 +50,7 @@ h1{
 }
 .third{
     height: 600px;
-    border: 1px solid red;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
 
 p{
@@ -46,7 +59,6 @@ p{
 .fourth{
     width: 100%;
     height: 700px;
-    border: 1px solid red;
     margin-top: 150px;
     margin-bottom: 150px;
     background-color: rgba(192, 192, 192, 0.644);
@@ -55,6 +67,7 @@ p{
     text-align: center;
     font-size: 40px;
     margin-top: 100px;
+    padding-top: 100px;
 }
 .pic{
     width: 300px;
@@ -79,4 +92,39 @@ article h3{
 }
 article p{
     margin: 10px;
+}
+.box{
+    margin: 100px auto;
+    width: 810px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 255, 0);
+    border-radius: 28px;
+    background-image: url(shapes/box.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box h2{
+    color: white;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.box a{
+    margin-left:600px;
+    margin-top: 70px;
+}
+.icons{
+    width: 600px;
+    height: 300px;
+    margin: 100px auto;
+}
+.icons h4{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.icons h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.ball{
+    margin-left: 50px;
 }
